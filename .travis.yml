@@ -1,6 +1,9 @@
 language: go
 go:
   - 1.7.3
+branches:
+  only:
+  - master
 env:
   - "PATH=/home/travis/gopath/bin:$PATH"
 before_install:
